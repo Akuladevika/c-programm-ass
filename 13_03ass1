@@ -1,0 +1,25 @@
+#include<stdio.h>
+main()
+{
+	int i,n,sum=0;
+	printf("enter array size");
+	scanf("%d",&n);
+	int a[n];
+	printf("enter array elements");
+	for(i=0;i<n;i++)
+	scanf("%d",&a[i]);
+	 printf("array values");
+	 for(i=0;i<n;i++)
+	 printf("%d ",a[i]);
+	 for(i=0;i<n;i++){
+	 sum=sum+a[i];
+}
+	 printf("sum of all arrray elements is %d\n",sum);
+}
+
+	
+	
+	
+	
+	
+	
